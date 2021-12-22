@@ -47,7 +47,7 @@ export function Detail(){
     return(
         <Detalles dia={estado}>
             {
-                !actual ? <Nada>Aplicacion de Clima</Nada> : (
+                !actual ? <Nada>Aplicación de Clima</Nada> : (
                     <Flex dia={estado}>
                     <h1>{(actual.name).toUpperCase()}</h1>
                     <h2>{actual.weather[0].description}</h2>

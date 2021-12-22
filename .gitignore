@@ -3,3 +3,9 @@ node_modules/
 
 # package-lock.json
 package-lock.json
+
+#firebase
+.firebaserc
+firebase.json
+.firebase/
+build/

@@ -8,7 +8,7 @@ export function About(){
                 <Link to="/">
                     Volver
                 </Link>
-                <p>Mi nombre es Bautista Pugnaloni, soy Full-Stack Developer, con conocimientos en el stack de tecnologias PERN. Siempre me llamo la atencion la programacion, y hace cuatro meses, fui admitido en el bootcamp de Henry, donde pude desarrollar mas mis habilidades. <br/>Esta SPA, fue una tarea propuesta dentro del bootcamp, para aplicar ciertos conocimientos aprendidos, pero quise ponerme a prueba agregando un diseño y experiencia de usuario personal.</p>
+                <p>Mi nombre es Bautista Pugnaloni, soy Full-Stack Developer, con conocimientos en el stack de tecnologías PERN. La programación siempre me interesó. Hace cuatro meses fui admitido en el bootcamp de Henry, donde pude desarrollar más mis habilidades. <br/>Esta SPA (Single Page Application), fue una tarea propuesta dentro del bootcamp para aplicar ciertos conocimientos aprendidos, pero quise ponerme a prueba agregando un diseño y experiencia de usuario personal.</p>
                 <Implementado>
                     <h3>Lo implementado en esta SPA fue:</h3>
                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
