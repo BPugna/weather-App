@@ -8,7 +8,7 @@ export function About(){
                 <Link to="/">
                     Volver
                 </Link>
-                <p>Mi nombre es Bautista Pugnaloni, soy Full-Stack Developer, con conocimientos en el stack de tecnologías PERN. La programación siempre me interesó. Hace cuatro meses fui admitido en el bootcamp de Henry, donde pude desarrollar más mis habilidades. <br/>Esta SPA (Single Page Application), fue una tarea propuesta dentro del bootcamp para aplicar ciertos conocimientos aprendidos, pero quise ponerme a prueba agregando un diseño y experiencia de usuario personal.</p>
+                <p>Mi nombre es <span>Bautista Pugnaloni</span>, soy <span>Full-Stack Developer</span>, con conocimientos en el stack de tecnologías <span>PERN</span>. La programación siempre llamó mi atención, es por eso que comencé a incursionar en HTML, Css y JavaScript, pero llegó un punto donde se me hizo muy complejo saber por que camino seguir aprendiendo. Hace cuatro meses fui admitido en el bootcamp de Henry, donde pude desarrollar más mis habilidades gracias a seguir un lineamiento. <br/>Esta SPA (Single Page Application), fue una tarea propuesta dentro del bootcamp para aplicar ciertos conocimientos aprendidos, pero quise ponerme a prueba agregando un diseño y experiencia de usuario unicos.</p>
                 <Implementado>
                     <h3>Lo implementado en esta SPA fue:</h3>
                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
@@ -63,9 +63,9 @@ const Interno = styled.div`
         font-size: 24px;
         font-weight: 800;
         color: black;
-        text-shadow: 0 0 10px blueviolet;
+        text-shadow: 0 0 10px #0b185c;
         &:hover {
-            text-shadow: 0 0 10px red;
+            text-shadow: 0 0 10px #e6676b;
             color: white;
         }
         img{
@@ -79,6 +79,10 @@ const Interno = styled.div`
     p {
         margin: 20px 0 0 0;
         font-size: 18px;
+        span {
+            color: #383838;
+            text-shadow: 0 0 6px white;
+        }
         a {
             color: blue;
         }
