@@ -6,8 +6,9 @@ let initialState = {
 export function rootReducer(state = initialState, action){
     switch(action.type){
         case "SEARCH_PLACE":
+                let ax = state.buscados.find(el => el.id === action.payload.id)           
             return {
-                buscados: [...state.buscados, action.payload],
+                buscados: (ax ? [...state.buscados] : [...state.buscados, action.payload]),
                 actual: action.payload
             }
         case "CHANGE_ACTUAL":
